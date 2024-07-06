@@ -108,8 +108,45 @@ body {
     font-weight: bold;
 }
 
-.cart-container .cart .discount{
+.cart-container .cart .discount {
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 28px;
-} 
+}
+
+/* footer style */
+.footer-container {
+    /* background: linear-gradient(rgba(163, 155, 155, 0.6), rgba(243, 236, 236, 0.4)), 
+    url('/assets/social-bg.png'); */
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .footer-content {
+    text-align: center;
+}
+
+.footer-container .footer-content .title {
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.footer-container .footer-content .des {
+    margin-bottom: 30px;
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+}
+
+.footer-container .footer-content .social {
+    font-size: 26px;
+    width: 1000px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
